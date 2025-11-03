@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Фронтенд и бэкенд разработка/KR2/styles/styles.css" rel="stylesheet">
+    <script src="/Фронтенд и бэкенд разработка/KR2/scripts/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="/Фронтенд и бэкенд разработка/KR2/images/icon.png" alt="icon" class="icon">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center ">
+                    <h1 class="student-name">Ганиев Эмиль</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand">
+        <div class="container">
+            <div class="navbar-nav justify-content-around w-100">
+                <a class="nav-link" href="/Фронтенд и бэкенд разработка/KR2/index.html">Главная</a>
+                <a class="nav-link" href="projects.html">Проекты</a>
+                <a class="nav-link" href="diary.html">Дневник</a>
+                <a class="nav-link" href="contacts.html">Контакты</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+       <h2 class="study-header text-center">Мой учебный прогресс</h2>
+       <div class="container study-container">
+            <div class="row">
+                <span class="progress-item"> 01 дек - Верстка макета сайта<i class="bi bi-check"></i></span>
+                <span class="progress-item"> 05 дек - JavaScript основы<i class="bi bi-check"></i></span>
+                <span class="progress-item"> 10 дек - Работа с формами<i class="bi bi-check"></i></span>
+                <span class="progress-item"> 15 дек - Адаптивный дизайн<i class="bi bi-x"></i></span>
+            </div>
+       </div> 
+       <h2 class="study-header text-center">Текущие курсы</h2>
+       <div class="container">
+            <div class="row">
+                <div class="row course">
+                    <div class="col">
+                        <span class="skills-text">Веб-разработка</span>
+                    </div>
+                    <div class="col">
+                        <div class="progress" role="progressbar">
+                            <div class="progress-bar" style="width:95%">95%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row course">
+                    <div class="col">
+                        <span class="skills-text">JavaScript</span>
+                    </div>
+                    <div class="col">
+                        <div class="progress" role="progressbar">
+                            <div class="progress-bar" style="width:65%">65%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row course">
+                    <div class="col">
+                        <span class="skills-text">Bootstrap</span>
+                    </div>
+                    <div class="col">
+                        <div class="progress" role="progressbar">
+                            <div class="progress-bar" style="width:40%">40%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-primary">Добавить запись</button>
+       </div>
+    </main>
+    <footer>
+        <span class="footer-text">&copy; 2025 <a class="footer-link" href="pages/contacts.html">Контакты</a></span>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,238 @@
+body {
+  background-color: rgba(0, 0, 0, 0.916);
+  font-family: verdana, serif;
+}
+
+.header {
+  background-color: rgb(19, 136, 245);
+  padding: 0 0 10px 0;
+  border-radius: 0 0 30px 30px;
+}
+
+.icon {
+  padding-top: 5px;
+  width: 100px;
+}
+
+.student-name {
+  font-family: Georgia, serif;
+  font-size: 35px;
+}
+
+.nav-link {
+  color: black;
+  background-color: rgb(19, 136, 245);
+  padding: 8px;
+  border-radius: 20px;
+  width: 23%;
+  text-align: center;
+  font-family: georgia, serif;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.student-photo {
+  min-width: 100px;
+  flex: 0 1 45%;
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(255, 255, 255, 0.606);
+  max-width: 800px;
+}
+
+.desc-containder {
+  display: flex;
+  max-width: 1200px;
+}
+
+.desc-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.606);
+  border-radius: 20px;
+  flex: 0 1 55%;
+  min-width: 100px;
+  max-width: 400px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+.student-text {
+  color: white;
+  padding: 0 2px 0 5px;
+  font-family: Verdana, serif;
+  font-size: 16px;
+}
+
+.download-resume-button {
+  background-color: rgb(19, 136, 245);
+  border-radius: 12px;
+}
+
+.skills-header {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.skills-text {
+  color: white;
+  font-family: verdana, serif;
+}
+
+.skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projects-header {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.projects-card {
+  border: 1px solid rgba(255, 255, 255, 0.606);
+  color: white;
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.footer-link {
+  font-family: georgia, serif;
+  color: white;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+.myprojects-header {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: white;
+}
+
+.btn-outline-primary {
+  color: rgb(19, 136, 245);
+  border-radius: 12px;
+  padding: 2px 10px 2px 10px;
+  margin: 2px;
+  font-family: georgia, serif;
+  border: 1px solid rgb(19, 136, 245);
+}
+
+.projects-item {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.606);
+  border-radius: 10px;
+  padding: 120px 20px;
+  margin: 20px;
+}
+
+.pr1,
+.pr3 {
+  margin-left: 9%;
+}
+
+.pr2,
+.pr4 {
+  margin-right: 8.5%;
+}
+
+.study-header {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.study-container {
+  border: 1px solid rgba(255, 255, 255, 0.606);
+}
+
+.progress-item {
+  color: white;
+  padding: 6px;
+  padding-left: 20px;
+}
+
+.course {
+  padding-bottom: 10px;
+}
+
+.her {
+  margin-bottom: 20px;
+}
+
+.contacts-header {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-label {
+  color: white;
+  font-family: georgia, serif;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.form-control {
+  height: 32px;
+}
+
+#message {
+  height: 100px;
+}
+
+.send-button {
+  margin-bottom: 10px;
+}
+
+.mini-header {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin-left: 50px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.bi {
+  color: white;
+}
+
+.contact-links-container {
+  margin-left: 60px;
+}
+
+.text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.row_1 {
+  display: flex;
+  gap: 10px;
+}

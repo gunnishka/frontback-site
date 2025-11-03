@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Фронтенд и бэкенд разработка/KR2/styles/styles.css" rel="stylesheet">
+    <script src="/Фронтенд и бэкенд разработка/KR2/scripts/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="/Фронтенд и бэкенд разработка/KR2/images/icon.png" alt="icon" class="icon">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center ">
+                    <h1 class="student-name">Ганиев Эмиль</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand">
+        <div class="container">
+            <div class="navbar-nav justify-content-around w-100">
+                <a class="nav-link" href="/Фронтенд и бэкенд разработка/KR2/index.html">Главная</a>
+                <a class="nav-link" href="projects.html">Проекты</a>
+                <a class="nav-link" href="diary.html">Дневник</a>
+                <a class="nav-link" href="contacts.html">Контакты</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <h2 class="text-center contacts-header">Свяжитесь со мной</h2>
+                        <form class="contact-form">
+                            <div class="col">
+                                <div class="rows">
+                                    <div class="row her">
+                                        <label for="name" class="form-label">Имя *</label>
+                                        <input type="text" class="form-control" id="name" required></input>
+                                    </div>
+                                    <div class="row her">
+                                        <label for="email" class="form-label">E-mail *</label>
+                                        <input type="email" class="form-control" id="email" required></input>
+                                    </div>
+                                    <div class="row her">
+                                        <label for="message" class="form-label">Сообщение *</label>
+                                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary send-button">
+                                        Отправить сообщение
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <h5 class="mini-header">Контакты:</h5>
+    <div class="contact-links-container">
+        <div class="row_1">
+            <i class="bi bi-envelope-at-fill"></i>
+            <span class="text">emilganiev06@gmail.com</span>
+        </div>
+        <div class="row_1">
+            <i class="bi bi-github"></i>
+            <span class="text">https://github.com/gunnishka</span>
+        </div>
+        <div class="row_1">
+            <i class="bi bi-geo-fill"></i>
+            <span class="text">Москва</span>
+        </div>
+    </div>
+
+
+    </main>
+    <footer>
+        <span class="footer-text">&copy; 2025 <a class="footer-link" href="pages/contacts.html">Контакты</a></span>
+    </footer>
+</body>
+</html>
