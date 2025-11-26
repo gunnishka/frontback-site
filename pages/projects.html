@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/Фронтенд и бэкенд разработка/KR2/styles/styles.css" rel="stylesheet">
-    <script src="/Фронтенд и бэкенд разработка/KR2/scripts/main.js" defer></script>
+    <link href="../styles/styles.css" rel="stylesheet">
+    <script src="../scripts/main.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 <body>
-    <a class="skip-link" href="#main">Перейти к основному содержимому</a>
     <header class="header">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <img src="/Фронтенд и бэкенд разработка/KR2/images/icon.png" alt="icon" class="icon">
+                    <img src="../images/icon.png" alt="icon" class="icon">
                 </div>
             </div>
             <div class="row">
@@ -25,10 +24,10 @@
             </div>
         </div>
     </header>
-    <nav class="navbar navbar-expand">
+    <nav class="navbar">
         <div class="container">
-            <div class="navbar-nav justify-content-around w-100">
-                <a class="nav-link" href="/Фронтенд и бэкенд разработка/KR2/index.html">Главная</a>
+            <div class="nav-links">
+                <a class="nav-link" href="../index.html">Главная</a>
                 <a class="nav-link" href="projects.html">Проекты</a>
                 <a class="nav-link" href="diary.html">Дневник</a>
                 <a class="nav-link" href="contacts.html">Контакты</a>
@@ -37,27 +36,51 @@
     </nav>
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col"><h2 class="myprojects-header">Мои проекты</h2></div>
-                <div class="col">
-                    <div class="row categories">
-                        <button type="button" class="col btn btn-outline-primary" id="all-button">Все</button>
-                        <button type="button" class="col btn btn-outline-primary" id="html-button">HTML</button>
-                        <button type="button" class="col btn btn-outline-primary" id="js-button">JS</button>
-                        <button type="button" class="col btn btn-outline-primary" id="bootstrap-button">Bootstrap</button>
-                        <button type="button" class="col btn btn-outline-primary" id="c++-button">C++</button>
+            <div class="row align-items-center mb-4">
+                <div class="col-12 col-md-6"><h2 class="myprojects-header">Мои проекты</h2></div>
+                <div class="col-12 col-md-6">
+                    <div class="row categories g-2">
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button type="button" class="btn btn-outline-primary w-100" id="all-button">Все</button>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button type="button" class="btn btn-outline-primary w-100" id="html-button">HTML</button>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button type="button" class="btn btn-outline-primary w-100" id="js-button">JS</button>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button type="button" class="btn btn-outline-primary w-100" id="bootstrap-button">Bootstrap</button>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button type="button" class="btn btn-outline-primary w-100" id="c++-button">C++</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid text-center">
-            <div class="row">
-                <div class="col-md-6 " data-bs-toggle="modal" data-bs-target="#projectModal1">Личный сайт (HTML, CSS, Bootstrap, JS)</div>
-                <div class="col-md-6" data-bs-toggle="modal" data-bs-target="#projectModal1">ToDo-приложение (C++, QT)</div>
-            </div>
-            <div class="row">    
-                <div class="col projects-item pr3" data-bs-toggle="modal" data-bs-target="#projectModal1">Игра "Крестики-нолики" (JS)</div>
-                <div class="col projects-item pr4" data-bs-toggle="modal" data-bs-target="#projectModal1">Игра "Виселица" (C++, QT)</div>
+        <div class="container text-center">
+            <div class="row g-3">
+                <div class="col-12 col-md-6">
+                    <div class="projects-item h-100 d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                        Личный сайт (HTML, CSS, Bootstrap, JS)
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="projects-item h-100 d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                        ToDo-приложение (C++, QT)
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="projects-item h-100 d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                        Игра "Крестики-нолики" (JS)
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="projects-item h-100 d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                        Игра "Виселица" (C++, QT)
+                    </div>
+                </div>
             </div>
         </div>
         <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModalLabel1" aria-hidden="true">
@@ -81,7 +104,7 @@
         </div>
     </main>
     <footer>
-        <span class="footer-text">&copy; 2025 <a class="footer-link" href="pages/contacts.html">Контакты</a></span>
+        <span class="footer-text">&copy; 2025 <a class="footer-link" href="contacts.html">Контакты</a></span>
     </footer>
 </body>
 </html>
